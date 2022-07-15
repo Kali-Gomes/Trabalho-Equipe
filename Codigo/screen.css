@@ -10,10 +10,10 @@ header{
     height: 50vh;
     padding-top: 25vh;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 header h1{
-    color: red;
-    margin-left: 50%;
-    font-size: 50%;
+    color: white;
+    font-size: 10vh;
 }
