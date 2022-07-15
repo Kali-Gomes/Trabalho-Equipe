@@ -10,6 +10,7 @@ header{
     height: 50vh;
     padding-top: 25vh;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 header h1{
@@ -68,4 +69,8 @@ footer button{
 footer button:hover{
     background-color: #122e93;
     cursor: pointer;
+}
+    color: white;
+    text-shadow: 1vh 1vh black;
+    font-size: 10vh;
 }
