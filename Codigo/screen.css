@@ -1,9 +1,9 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-image:url(Imagens/ScoobyHeader.jpg);
+header {
+    background-image: url(Imagens/ScoobyHeader.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,11 +13,12 @@ header{
     text-align: center;
 }
 
-header h1{
-    color: red;
-    margin-left: 50%;
-    font-size: 50%;
+header h1 {
+    color: white;
+    text-shadow: 1vh 1vh black;    
+    font-size: 10vh;
 }
+
 .img1 {
     display: block;
     margin-left: auto;
@@ -35,28 +36,28 @@ p {
 
 
 /*footer bonito familia*/
-footer{
+footer {
     background-color: rgb(209, 209, 209);
     display: flex;
     justify-content: space-around;
 }
 
-footer section{
+footer section {
     margin: 3vh;
 }
 
-footer p{
+footer p {
     margin-bottom: 2vh;
     width: 50vh;
 
 }
 
-footer img{
+footer img {
     width: 50vh;
     height: 30vh;
 }
 
-footer button{
+footer button {
     background-color: #365dea;
     color: white;
     font-weight: 600;
@@ -66,10 +67,9 @@ footer button{
     transition: 0.3s;
 }
 
-footer button:hover{
+footer button:hover {
     background-color: #122e93;
     cursor: pointer;
-}
     color: white;
     text-shadow: 1vh 1vh black;
     font-size: 10vh;
